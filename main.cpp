@@ -51,8 +51,7 @@ int main()
     
     cout<<"..........The result from bellmon ford algorithm..........."<<endl;
     bellmon_ford b(edge);
-    b.solution(src,destination);// gives true when the graph doesn't contain negative cycle
-                                                    // false the graph contains negative cycle
+    b.solution(src,destination);
     
     cout<<endl;
     cout<<endl;
